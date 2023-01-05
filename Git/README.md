@@ -12,6 +12,7 @@ Replace <directory> with a <file> to change a specific file.
 
 ```sh
 git add
+git add -p <spesfic file>
 ```
 Clone repo located at <repo> onto local machine. Original repo can be
 located on the local filesystem or on a remote machine via HTTP or SSH .
@@ -137,8 +138,11 @@ Open the global configuration file in a text editor for manual editing.
 ```sh
 git config --global --edit
 ```
-# Git Diff
+# Git Diff <spacfic file>
 Show difference between working directory and last commit.
+
+
+
 ```sh
 git diff HEAD
 ```
