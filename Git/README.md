@@ -1,4 +1,5 @@
 # Git Basics
+
 [Watch Git, Github, GitLab, Bitbucket شرح step by step on YouTube](https://youtu.be/MC5ZAyGl2bw)
 
 Create empty Git repo in specified directory. Run with no
@@ -114,6 +115,7 @@ Push the branch to <remote> , along with necessary commits and
 objects. Creates named branch in the remote repo if it doesn’t exist.
 ```sh
 git push <remote> <branch>
+git push --set-upstream origin <branch-name> 
 ```
 #Git Config
 Define the author name to be used for all commits by the current user.
